@@ -2,7 +2,7 @@
 name = "ppz"
 version = "0.6.0"
 description = ""
-authors = ["Stanislav Buldyhin <stanislav.buldyhin@geo-pay.net>"]
+authors = ["Vladyslav Skirchuk <vladyslav.skirchuk@ukd.edu.ua>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
