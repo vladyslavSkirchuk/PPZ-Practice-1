@@ -13,7 +13,7 @@ def palindrome(text: str) -> List[str]:
     return palindromes
 
 
-def validate_ip(ip: str) -> str:
+def validate_ip(ip: str) -> None:
     import ipaddress
 
     try:
@@ -23,7 +23,7 @@ def validate_ip(ip: str) -> str:
         print(f'This ip is not valid: {ip}')
 
 
-def get_os():
+def get_os() -> None:
     import platform
 
     system = platform.system()
